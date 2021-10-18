@@ -1,0 +1,88 @@
+<!doctype html><html lang=zh-cn><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=icon href=/favicon.ico>
+<title>
+如何在Vultr上创建VPS - 卡尔资讯
+</title>
+<meta name=description content="Vultr是一家提供高性能SSD云服务器的主机商，其足迹遍布全球，它的目标是创造最可靠和最有效的服务">
+<meta name=author content="xCarl">
+<meta name=generator content="Hugo 0.88.1"><link rel=stylesheet href="https://xcarl.com/css/styles.min.a1e04dbf1fa171b8d16dd116f767204a6976d86677f552b9e36f308e99190d8f.css" integrity="sha256-oeBNvx+hcbjRbdEW92cgSml22GZ39VK5428wjpkZDY8=">
+<meta property="og:title" content="如何在Vultr上创建VPS">
+<meta property="og:description" content="Vultr是一家提供高性能SSD云服务器的主机商，其足迹遍布全球，它的目标是创造最可靠和最有效的服务">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://xcarl.com/tt/vultr-vps/"><meta property="article:section" content="tt">
+<meta property="article:published_time" content="2021-10-02T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-10-02T00:00:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="如何在Vultr上创建VPS">
+<meta name=twitter:description content="Vultr是一家提供高性能SSD云服务器的主机商，其足迹遍布全球，它的目标是创造最可靠和最有效的服务">
+<meta itemprop=name content="如何在Vultr上创建VPS">
+<meta itemprop=description content="Vultr是一家提供高性能SSD云服务器的主机商，其足迹遍布全球，它的目标是创造最可靠和最有效的服务"><meta itemprop=datePublished content="2021-10-02T00:00:00+00:00">
+<meta itemprop=dateModified content="2021-10-02T00:00:00+00:00">
+<meta itemprop=wordCount content="14">
+<meta itemprop=keywords content="vultr,vps,">
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative"><header class="container flex justify-around md:justify-between gap-4 flex-wrap p-6 mx-auto">
+<a href=https://xcarl.com/ class="capitalize font-extrabold text-2xl">
+卡尔资讯
+</a>
+<ul class="flex items-center gap-4 lg:gap-6">
+<li><a href=https://xcarl.com/tt/>建站资讯</a></li>
+<li><a href=https://xcarl.com/ch/>美金课堂</a></li>
+<li><a href=https://xcarl.com/dm/>域名服务</a></li>
+<li class="grid place-items-center">
+<span class="toggle-dark-mode inline-block cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="5" x2="12" y2="5.01"/><line x1="17" y1="7" x2="17" y2="7.01"/><line x1="19" y1="12" x2="19" y2="12.01"/><line x1="17" y1="17" x2="17" y2="17.01"/><line x1="12" y1="19" x2="12" y2="19.01"/><line x1="7" y1="17" x2="7" y2="17.01"/><line x1="5" y1="12" x2="5" y2="12.01"/><line x1="7" y1="7" x2="7" y2="7.01"/></svg>
+</span>
+</li>
+</ul>
+</header>
+<main>
+<div class="relative max-w-5xl mx-auto px-4">
+<img src=https://img.xcarl.com/vultr/vultr.png class="rounded-lg shadow-sm w-full object-contain">
+<div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
+October 2, 2021
+</div>
+</div>
+<article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+<h1 class="text-2xl font-bold mb-2">如何在Vultr上创建VPS</h1>
+<p>Vultr是一家提供高性能SSD云服务器的主机商，其足迹遍布全球。它的目标是创造最可靠和最有效的服务，与其他云服务商不同的是，Vultr专注于较低价格水平的服务器，对个人和小企业等小规模用户极具吸引力。</p>
+<div style=text-align:center>
+<a class="px-8 py-3 rounded transition-colors bg-pink-400 text-gray-500 hover:text-gray-800 dark:bg-gray-900 dark:text-gray-400 dark:hover:text-white" href=https://vultr.com/>前往Vultr</a>
+</div>
+<p>当你注册vultr并登录后，你会看到以下仪表板。按下蓝色的加号按钮，创建一个新的服务器。
+<img src=https://img.xcarl.com/vultr/01-vultr.png alt="Create your vultr VPS ">
+接下来，你需要从现有的4种类型中选择你的服务器类型。一般个人使用的话Cloud Compute就足够了。
+<img src=https://img.xcarl.com/vultr/02-vultr.png alt="Create your vultr VPS ">
+然后选择服务器所在的地区，新加坡日本韩国都是不错的选择。
+<img src=https://img.xcarl.com/vultr/03-vultr.png alt="Create your vultr VPS ">
+在这一步，你可以为服务器选择操作系统。建议选择基于Debian的操作系统，如Debian或Ubuntu。Ubuntu请确保选择长期支持版本（xx.04版本)，以获得初始发布后5年内的安全更新。
+<img src=https://img.xcarl.com/vultr/04-vultr.png alt="Create your vultr VPS ">
+到了最重要的部分。在这一步，你必须决定你需要多少资源。对于小型网站或应用，5美元的机器就足够使用了。如果你还想用PostgreSQL或MySQL托管数据库，10美元的机器是一个不错的选择。
+<img src=https://img.xcarl.com/vultr/06-vultr.png alt="Create your vultr VPS ">
+点击 &ldquo;Deploy Now &ldquo;来创建服务器。
+<img src=https://img.xcarl.com/vultr/07-vultr.png alt="Create your vultr VPS ">
+一段时间后，你的新服务器应该可以在仪表板上看到。
+<img src=https://img.xcarl.com/vultr/08-vultr.png alt="Create your vultr VPS ">
+当你点击仪表板上的服务器时，会出现一个概览和更多的设置选项，你可以点击复制符号来复制root用户的密码。在Windows下，可以使用<a href=https://www.putty.org/>Putty</a>这个小工具来连接服务器。
+<img src=https://img.xcarl.com/vultr/Putty.png alt="Create your vultr VPS "></p>
+</article><div class="bg-blue-100 dark:bg-gray-900">
+<div class="container px-6 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div>
+<div class="text-2xl font-bold mb-2">我们相信资讯的力量</div>
+<p class=opacity-60>接触新想法，启发新创意，一起探索无限可能</p>
+</div>
+<ul class="flex justify-center gap-4">
+</ul>
+</div>
+</div>
+</main><footer class="container p-6 mx-auto flex justify-between items-center">
+<span class="text-sm font-light">
+Copyright © 2021 - XCARL · All rights reserved
+</span>
+<span onclick="window.scrollTo({top:0,behavior:'smooth'})" class="p-1 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 15l-6-6-6 6h12"/></svg>
+</span>
+</footer>
+<script>const darkmode=document.querySelector('.toggle-dark-mode');function toggleDarkMode(){document.documentElement.classList.contains('dark')?(document.documentElement.classList.remove('dark'),localStorage.setItem('darkmode','light')):(document.documentElement.classList.add('dark'),localStorage.setItem('darkmode','dark'))}darkmode&&darkmode.addEventListener('click',toggleDarkMode);const isDark=localStorage.getItem('darkmode');isDark&&isDark==='dark'&&toggleDarkMode()</script>
+</body>
+</html>
